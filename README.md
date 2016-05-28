@@ -1,5 +1,5 @@
 # IOHIDEventSystemUserClient
-iOS Kernel Race Vulnerability (Patched 9.3.2 by Apple)
+iOS Kernel Race Vulnerability for ARM (Patched 9.3.2 by Apple)
 
 #How to...
 1-)Open Terminal
