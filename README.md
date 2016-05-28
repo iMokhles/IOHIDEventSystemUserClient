@@ -17,7 +17,7 @@ iOS Kernel Race Vulnerability (Patched 9.3.2 by Apple)
 
 3-) Enter the This Command :
 
-gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch target -isysroot SDK -I FilePath
+```gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch target -isysroot SDK -I FilePath```
 
 #For Example (zip file)
 
