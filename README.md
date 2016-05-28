@@ -8,7 +8,7 @@ iOS Kernel Race Vulnerability (Patched 9.3.2 by Apple)
 
 ```git clone https://github.com/yigitcanyilmaz/IOHIDEventSystemUserClient.git && cd IOHIDEventSystemUserClient && gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch <target> -isysroot <SDK> -I<FilePath>```
 # For Example
-```git clone https://github.com/yigitcanyilmaz/IOHIDEventSystemUserClient.git && cd IOHIDEventSystemUserClient && gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch amrv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -I/Users/yigityilmaz/Desktop/IOHIDEventSystemUserClient```
+```git clone https://github.com/yigitcanyilmaz/IOHIDEventSystemUserClient.git && cd IOHIDEventSystemUserClient && gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -I/Users/yigityilmaz/Desktop/IOHIDEventSystemUserClient```
 
 #OR ...
 1-) Download zip file
@@ -21,4 +21,4 @@ gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch <target> -i
 
 #For Example (zip file)
 
-gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch amrv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -I/Users/yigityilmaz/Desktop/IOHIDEventSystemUserClient
+gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -I/Users/yigityilmaz/Desktop/IOHIDEventSystemUserClient
