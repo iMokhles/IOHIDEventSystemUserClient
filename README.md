@@ -6,9 +6,9 @@ iOS Kernel Race Vulnerability for ARM (Patched on 9.3.2 by Apple)
 
 2-) Enter the this command:
 
-```git clone https://github.com/yigitcanyilmaz/IOHIDEventSystemUserClient.git && cd IOHIDEventSystemUserClient && gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch <target> -isysroot <SDK> -I<FilePath>```
+```git clone https://github.com/yigitcanyilmaz/IOHIDEventSystemUserClient.git && cd IOHIDEventSystemUserClient && gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch <target> -isysroot <SDK> -framework IOKit -I<FilePath>```
 # For Example
-```git clone https://github.com/yigitcanyilmaz/IOHIDEventSystemUserClient.git && cd IOHIDEventSystemUserClient && gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -I/Users/yigityilmaz/Desktop/IOHIDEventSystemUserClient```
+```git clone https://github.com/yigitcanyilmaz/IOHIDEventSystemUserClient.git && cd IOHIDEventSystemUserClient && gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -framework IOKit -I/Users/yigityilmaz/Desktop/IOHIDEventSystemUserClient```
 
 #OR ...
 1-) Download zip file
@@ -17,8 +17,8 @@ iOS Kernel Race Vulnerability for ARM (Patched on 9.3.2 by Apple)
 
 3-) Enter the This Command :
 
-```gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch target -isysroot SDK -I FilePath```
+```gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch target -isysroot SDK -framework IOKit -I FilePath```
 
 #For Example (zip file)
 
-```gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -I/Users/yigityilmaz/Desktop/IOHIDEventSystemUserClient```
+```gcc IOHIDEventSystemUserClient.c -o IOHIDEventSystemUserClient -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -framework IOKit -I/Users/yigityilmaz/Desktop/IOHIDEventSystemUserClient```
