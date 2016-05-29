@@ -1,5 +1,5 @@
 # IOHIDEventSystemUserClient
-iOS Kernel Race Vulnerability for ARM (Patched on iOS 9.3.2,OSX 10.11.5,tvOS 9.2.1 by Apple)
+iOS Kernel Race Vulnerability (Patched on iOS 9.3.2,OSX 10.11.5,tvOS 9.2.1 by Apple)
 
 #How to...
 
